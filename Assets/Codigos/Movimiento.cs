@@ -37,6 +37,6 @@ public class Movimiento : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.D)){
                     transform.localScale = new Vector3(1,1,1);
         }
-   
+    //un simple coment
     }
 }
