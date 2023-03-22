@@ -6,7 +6,7 @@ public class Movimiento : MonoBehaviour
 {
 
     public float velocidad =1;
-    puublic float salto = 3f;
+    public float salto = 3f;
 
     bool saltando = false;
 
