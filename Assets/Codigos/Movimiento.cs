@@ -7,13 +7,24 @@ public class Movimiento : MonoBehaviour
 
     public float velocidad =1;
     puublic float salto = 3f;
+
     bool saltando = false;
 
     RugidBody2D miCuerpoRigido;
 
+
+
+    Animator controlAnimacion; 
+
+
     // Start is called before the first frame update
     void Start(){
         miCuerpoRigido = GetComponent<RugidBody2D>();
+
+
+        controlAnimacion = GetComponent<Animator>;
+        controlAnimacion = GetComponent<Animator>; 
+
     }
 
     // Update is called once per frame
@@ -33,13 +44,34 @@ public class Movimiento : MonoBehaviour
 
 
         //si,la tecla apretada es A, el personaje en su escala
-        if(Input.GetKeyDown(KeyCode.A)){
-                    transform.localScale = new Vector3(-1,1,1);
-         }
+        if(Input.GetKeyDown(KeyCode.A)
+                ||Input.GetKeyUp(KeyCode.LeftArrow)
+
+                transform.localScale = new Vector3(-1,1,1);
+                controlAnimacion.SetBool("activaCamina",true);
+        )}
         
         if(Input.GetKeyDown(KeyCode.D)){
-                    transform.localScale = new Vector3(1,1,1);
+                ||Input.GetKeyUp(KeyCode.RightArrow)
+
+                transform.localScale = new Vector3(1,1,1);
+                controlAnimacion.SetBool("activaCamina",true);
         }
-    //un simple coment
+
+        if (Input.GetKeyUp(KeyCode.A)){
+            controlAnimacion.SetBool("activaCamina",true);
+        }
+
+        if(Input.GetKeyDown(KeyCode.D)){
+                    ||Input.GetKeyUp(KeyCode.D)
+                    ||Input.GetKeyUp(KeyCode.LeftArrow)
+                    ||Input.GetKeyUp(KeyCode.RightArrow)
+
+
+                    controlAnimacion.SetBool("activaCamina",false);
+        }
+
+
+        //Salto
     }
 }
