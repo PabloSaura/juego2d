@@ -6,11 +6,14 @@ public class Movimiento : MonoBehaviour
 {
 
     public float velocidad =1;
+    puublic float salto = 3f;
+    bool saltando = false;
+
+    RugidBody2D miCuerpoRigido;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start(){
+        miCuerpoRigido = GetComponent<RugidBody2D>();
     }
 
     // Update is called once per frame
