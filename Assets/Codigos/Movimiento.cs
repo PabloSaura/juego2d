@@ -44,12 +44,14 @@ public class Movimiento : MonoBehaviour
 
 
         //si,la tecla apretada es A, el personaje en su escala
-        if(Input.GetKeyDown(KeyCode.A)
-                ||Input.GetKeyUp(KeyCode.LeftArrow)
+        if(
+            Input.GetKeyDown(KeyCode.A)
+            ||
+            Input.GetKeyDown(KeyCode.LeftArrow)){
 
                 transform.localScale = new Vector3(-1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
-        )}
+        }
         
         if(Input.GetKeyDown(KeyCode.D)){
                 ||Input.GetKeyUp(KeyCode.RightArrow)
