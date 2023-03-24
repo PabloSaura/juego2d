@@ -19,7 +19,7 @@ public class arma : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) ) {
 
-            Instantiate(bala, new Vector3(transform.position.x,0,0,0), Quaternion.identity);
+            Instantiate(bala, new Vector3(transform.position.x,transform.position.y,0), Quaternion.identity);
         }
 
 
