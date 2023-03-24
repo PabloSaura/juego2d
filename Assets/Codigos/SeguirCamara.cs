@@ -6,8 +6,8 @@ public class SeguirCamara : MonoBehaviour
 {
 
     public GameObject Personaje;
-    private dondePersonajeX;
-    private dondePersonajeY;
+    private float dondePersonajeX;
+    private float dondePersonajeY;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +20,8 @@ public class SeguirCamara : MonoBehaviour
     {
         //posicion de la camara = posiciom del personaje
 
-        dondePersonajeX = (Personaje.transform.position.x);
-        dondePersonajeY = (Personaje.transform.position.y);
+        dondePersonajeX = Personaje.transform.position.x;
+        dondePersonajeY = Personaje.transform.position.y;
 
 
         transform.position = new Vector3(dondePersonajeX,dondePersonajeY,-10);
