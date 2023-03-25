@@ -12,7 +12,7 @@ public class Movimiento : MonoBehaviour
 
     Rigidbody2D miCuerpoRigido;
 
-
+    //uncomentario
 
     Animator controlAnimacion; 
 
