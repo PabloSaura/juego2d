@@ -5,14 +5,12 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
 
-    public float velocidad =1;
+    public static float Speed =2f;
     public float salto = 3f;
 
     bool saltando = false;
 
     Rigidbody2D miCuerpoRigido;
-
-    //uncomentario
 
     Animator controlAnimacion; 
 
@@ -42,37 +40,32 @@ public class Movimiento : MonoBehaviour
 
             }
 
-
-
-
-
-
         //obtengo el valor de las teclas A-D (1-1)
-        float movTeclas = Input.GetAxis("Horizontal")*velocidad;
 
-        //convierto a metros por segundo
-        movTeclas *= Time.deltaTime;
-        transform.Translate(movTeclas,0,0);
+        //GETAXIS
+        float H = Input.GetAxis("Horizontal")*Speed;
+        H *= Time.deltaTime; //convierto a metros por segundo
+        transform.Translate(H,0,0);
 
         //movTeclas = Time.deltaTime;
 
-
         //Debug.Log(movTeclas);
-
 
         //si,la tecla apretada es A, el personaje en su escala
 
+        
+        if(
+            Input.GetKey(KeyCode.Space) ) {
+            GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,3f),ForceMode2D.Impulse); //Salto
+        }
         //izquierda
         if(
-            Input.GetKeyDown(KeyCode.A)
-            ||
-            Input.GetKeyDown(KeyCode.LeftArrow)){
+            Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) ) {
 
                 transform.localScale = new Vector3(-1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
                 direccionBala = true;
         }
-        
         //derecha
         if(
             Input.GetKeyDown(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)
@@ -95,6 +88,6 @@ public class Movimiento : MonoBehaviour
         
 
 
-        //Salto
+        
     }
 }
