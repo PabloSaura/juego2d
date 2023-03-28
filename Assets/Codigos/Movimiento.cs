@@ -60,6 +60,7 @@ public class Movimiento : MonoBehaviour
             GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,salto),ForceMode2D.Impulse); //Salto
             ActivaSalto = false;
         }
+
         //izquierda
         if(
             Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) ) {
@@ -67,6 +68,7 @@ public class Movimiento : MonoBehaviour
                 transform.localScale = new Vector3(-1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
                 direccionBala = true;
+                Parallax.direccionPersonaje = "izquierda";
         }
         //derecha
         if(
@@ -76,13 +78,15 @@ public class Movimiento : MonoBehaviour
                 transform.localScale = new Vector3(1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
                 direccionBala = false;
+                Parallax.direccionPersonaje = "derecha";
         }
         
 
-
+        //parado
         if( Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ){
 
             controlAnimacion.SetBool("activaCamina",false);
+            Parallax.direccionPersonaje = "parado";
         }
 
     //FIN UPDATE
