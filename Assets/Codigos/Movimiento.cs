@@ -6,9 +6,10 @@ public class Movimiento : MonoBehaviour
 {
 
     public static float Speed =2f;
-    public float salto = 3f;
 
-    bool saltando = false;
+    public bool ActivaSalto = true;
+
+    public float salto = 5f;
 
     Rigidbody2D miCuerpoRigido;
 
@@ -55,8 +56,9 @@ public class Movimiento : MonoBehaviour
 
         
         if(
-            Input.GetKey(KeyCode.Space) ) {
-            GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,3f),ForceMode2D.Impulse); //Salto
+            Input.GetKey(KeyCode.Space) && ActivaSalto == true) {
+            GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,salto),ForceMode2D.Impulse); //Salto
+            ActivaSalto = false;
         }
         //izquierda
         if(
@@ -83,7 +85,12 @@ public class Movimiento : MonoBehaviour
             controlAnimacion.SetBool("activaCamina",false);
         }
 
+    //FIN UPDATE
 
+    void OncollisionEnter2D (){
+        ActivaSalto = true;
+
+    }
                     
         
 

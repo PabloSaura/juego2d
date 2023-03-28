@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class arma : MonoBehaviour
+public class Parallax : MonoBehaviour
 {
-
-    public GameObject bala;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,15 +13,6 @@ public class arma : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) ) {
-        Instantiate(bala, new Vector3(transform.position.x,transform.position.y,0), Quaternion.identity);
-        }
-
-
-
-
-
-
-
+        
     }
 }
