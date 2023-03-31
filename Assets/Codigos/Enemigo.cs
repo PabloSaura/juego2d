@@ -11,7 +11,7 @@ public class Enemigo : MonoBehaviour
 
     float distanciaAtaque = 5.0f;
 
-    
+    GameObject gestorSonido;
 
 
     // Start is called before the first frame update
@@ -19,6 +19,7 @@ public class Enemigo : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
         posicionOriginal = transform.position;
+
     }
 
     // Update is called once per frame
@@ -56,6 +57,9 @@ public class Enemigo : MonoBehaviour
         if(otro.gameObject.name == "Personaje)"){
             Debug.Log("Has muerto!");
             principalScript.vidas -=1;
+            personaje.transform.position = new Vector3(-1.3f,3.4f,0);
+
+            gestorSonido.GetComponent<audioManager>().sonidoDead();
         }
     }
     }

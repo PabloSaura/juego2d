@@ -13,9 +13,9 @@ public class bala : MonoBehaviour
     {
     //derecha
      if(Movimiento.direccionBala == false){
-            velocidad = 3.0f;
+            velocidad = 6.0f;
         }else{
-           velocidad = -3.0f;
+           velocidad = -6.0f;
         }
     }
     

@@ -11,9 +11,15 @@ public class principalScript : MonoBehaviour
 
     GameObject player;
 
+    void Awake(){
+        
+
+    }
+
+
+    }
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
     }
 
@@ -24,5 +30,8 @@ public class principalScript : MonoBehaviour
         Debug.Log("Vidas:" + vidas);
         Debug.Log("Score:" + score);
         Debug.Log("Score:" + enemigos + enemigos);
+
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            SceneManager.LoadScene("Start");
     }
 }
