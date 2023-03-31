@@ -57,16 +57,17 @@ public class audioManager : MonoBehaviour
         }
     public void clicBoton(){
         //que suene el sonido del boton
-        hiloMusical.PlayOneShot();
+        hiloMusical.PlayOneShot(clickMenu);
     
     public void sonidoDead(){
         hiloMusical.PlayOneShot(sonidoMuerte);
-    }
+        }
     public void sonidoGoals(){
-        hiloMusical.PlayOneShot(sonidoGoals);
+        hiloMusical.PlayOneShot(sonidoGoal);
+
+        }
+
 
     }
-
-
     }
 }
