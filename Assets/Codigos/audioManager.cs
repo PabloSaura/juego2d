@@ -38,7 +38,7 @@ public class audioManager : MonoBehaviour
         hiloMusical.loop = true;
         hiloMusical.Play() = true;
     }
-
+//
     // Update is called once per frame
     void Update()
     {
