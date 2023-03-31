@@ -8,12 +8,16 @@ public class dead : MonoBehaviour
 
     GameObject personaje;
 
+    GameObject gestorSonido;
+    AudioClip sonidoMuerte;
 
     // Start is called before the first frame update
     void Start()
     {
 
         personaje = GameObject.Find("Personaje");
+        gestorSonido = GameObject.Find("AudioManager");
+        sonidoMuerte = gestorSonido.GetComponent<audioManager>().sonidoMuerte;
 
 
     }
@@ -28,9 +32,14 @@ public class dead : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D otro){
         Debug.Log("Has muerto!");
-        principalScript.vidas = principalScript.vidas -1;
+        principalScript.vidas = -1;
         personaje.transform.position = new Vector3(-1.3f,3.4f,0);
 
+        personaje.GetComponent<AudioSource>().PlayOneShot(sonidoMuerte);
+        gestorSonido.
+
+
+        //gestorSonido. 
     }
 
 
