@@ -23,7 +23,7 @@ public class principalScript : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
     }
 
-    // Update is called once per frame
+    ///Update is called once per frame
     void Update()
     {
         
