@@ -30,6 +30,7 @@ public class principalScript : MonoBehaviour
         Debug.Log("Vidas:" + vidas);
         Debug.Log("Score:" + score);
         Debug.Log("Score:" + enemigos + enemigos);
+        
 
         if(Input.GetKeyDown(KeyCode.Escape)){
             SceneManager.LoadScene("Start");
