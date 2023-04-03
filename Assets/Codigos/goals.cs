@@ -21,7 +21,7 @@ public class goals : MonoBehaviour
 }
     void OnTriggerEnter2D(Collider2D otro){
         principalScript.score += 1;
-        gestorSonido.GetComponent<sonidoGoals>()
+       // gestorSonido.GetComponent<sonidoGoals>()
      }
 
 }
