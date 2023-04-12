@@ -5,9 +5,9 @@ using UnityEngine;
 public class SeguirCamara : MonoBehaviour
 {
 
-    public GameObject Personaje;
-    private float dondePersonajeX;
-    private float dondePersonajeY;
+    public transform Personaje;
+    public float dondePersonajeX;
+    public float dondePersonajeY;
 
     // Start is called before the first frame update
     void Start()

@@ -9,11 +9,11 @@ public class Movimiento : MonoBehaviour
 
     public bool ActivaSalto = true;
 
-    public float salto = 5f;
+    public float salto = 3.5f;
 
     Rigidbody2D miCuerpoRigido;
 
-    Animator controlAnimacion; 
+    public Animator controlAnimacion; 
 
     public static bool direccionBala = false;
 
@@ -54,7 +54,7 @@ public class Movimiento : MonoBehaviour
 
         //si,la tecla apretada es A, el personaje en su escala
 
-        
+        //INPUTS CONTROL NO PREDEFINIDOS
         if(
             Input.GetKey(KeyCode.Space) && ActivaSalto == true) {
             GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,salto),ForceMode2D.Impulse); //Salto
@@ -86,6 +86,7 @@ public class Movimiento : MonoBehaviour
         if( Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ){
 
             controlAnimacion.SetBool("activaCamina",false);
+            
             Parallax.direccionPersonaje = "parado";
         }
 
