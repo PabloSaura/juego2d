@@ -17,6 +17,8 @@ public class Movimiento : MonoBehaviour
 
     public static bool direccionBala = false;
 
+    public static bool ParardireccionBala = false;  //VIDEO 17 DE MOISES
+
 
     // Start is called before the first frame update
     void Start(){
@@ -67,29 +69,35 @@ public class Movimiento : MonoBehaviour
 
                 transform.localScale = new Vector3(-1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
-                direccionBala = true;
+                direccionBala = false;
+                ParardireccionBala = true;
                 Parallax.direccionPersonaje = "izquierda";
         }
         //derecha
         if(
-            Input.GetKeyDown(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)
+            Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)
         )
         {
                 transform.localScale = new Vector3(1,1,1);
                 controlAnimacion.SetBool("activaCamina",true);
-                direccionBala = false;
+                direccionBala = true;
+                ParardireccionBala = true;
                 Parallax.direccionPersonaje = "derecha";
         }
         
 
         //parado
-        if( Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow) ){
+        if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)) {
 
             controlAnimacion.SetBool("activaCamina",false);
-            
+            ParardireccionBala = false;
             Parallax.direccionPersonaje = "parado";
         }
-        
+
+        if(Input.GetKeyUp(KeyCode.D) || || Input.GetKeyUp(KeyCode.RightArrow)){
+            controlAnimacion.SetBool("activaCamina",false);
+            ParardireccionBala = true;
+            Parallax.direccionPersonaje = "parado";
         }
 
 
