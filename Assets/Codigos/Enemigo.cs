@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-
+    //public string clonBala; //VIDEO MOISES 18
     GameObject player;
 
     Vector3 posicionOriginal;
@@ -12,6 +13,7 @@ public class Enemigo : MonoBehaviour
     float distanciaAtaque = 5.0f;
 
     GameObject gestorSonido;
+    private object personaje;
 
 
     // Start is called before the first frame update
@@ -27,11 +29,7 @@ public class Enemigo : MonoBehaviour
     {
 
         
-
-
-
-        //distancia = fantasma .x - personaje .x
-        float distancia = Vector3.Distance(player.transform.position, transform.position);
+        float distancia = Vector3.Distance(player.transform.position, transform.position); //distancia = fantasma .x - personaje .x
         Debug.Log(distancia); //calcular/comprobar la distancia
 
         float velocidadEnemigo = velocidadAtaque * Time.deltaTime;
@@ -47,16 +45,20 @@ public class Enemigo : MonoBehaviour
 
 
         void OnTriggerEnter2D(Collider2D otro){
-        Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
-        Debug.Log("otro");
+        //Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
+        //Debug.Log("otro");
+
+        //clonBala = otro.gameObject.name;
 
         if(otro.gameObject.name == "bala(Clone)"){  //me destruye con la bala
-            Destroy(this.gameObject);
+            principalScript.enemigos++;
+            Destroy(this.gameObject, 0.3f);
         }
 
         if(otro.gameObject.name == "Personaje)"){
-            Debug.Log("Has muerto!");
+            //Debug.Log("Has muerto!");
             principalScript.vidas -=1;
+            //principalScript.vidas--; //VIDEO 18 MOISÉS
             personaje.transform.position = new Vector3(-1.3f,3.4f,0);
 
             gestorSonido.GetComponent<audioManager>().sonidoDead();
