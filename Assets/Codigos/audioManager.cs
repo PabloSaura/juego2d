@@ -43,7 +43,7 @@ public class audioManager : MonoBehaviour
     void Update()
     {
         // que suene algo en funcion de la escena
-        Scene escenaActual.name
+        Scene escenaActual.name;
         switch(escenaActual.name=="Start)"){
             //que suene la musica de comienzo!
         }
@@ -55,14 +55,14 @@ public class audioManager : MonoBehaviour
         hiloMusicalpitch = 1f;
             //que suene la musica de comienzo!
         }
-    public void clicBoton(){
+     void clicBoton(){
         //que suene el sonido del boton
         hiloMusical.PlayOneShot(clickMenu);
     
-    public void sonidoDead(){
+     void sonidoDead(){
         hiloMusical.PlayOneShot(sonidoMuerte);
         }
-    public void sonidoGoals(){
+     void sonidoGoals(){
         hiloMusical.PlayOneShot(sonidoGoal);
 
         }

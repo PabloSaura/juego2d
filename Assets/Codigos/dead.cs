@@ -6,7 +6,7 @@ public class dead : MonoBehaviour
 {
 
 
-    GameObject personaje;
+    public GameObject personaje;
 
     GameObject gestorSonido;
     AudioClip sonidoMuerte;

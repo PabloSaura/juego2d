@@ -1,0 +1,5 @@
+E:\VIDEOJUEGOS\UNITY_NUEVO\juego2d\Assets\Codigos\obj\Debug\net7.0\Codigos.csproj.AssemblyReference.cache
+E:\VIDEOJUEGOS\UNITY_NUEVO\juego2d\Assets\Codigos\obj\Debug\net7.0\Codigos.GeneratedMSBuildEditorConfig.editorconfig
+E:\VIDEOJUEGOS\UNITY_NUEVO\juego2d\Assets\Codigos\obj\Debug\net7.0\Codigos.AssemblyInfoInputs.cache
+E:\VIDEOJUEGOS\UNITY_NUEVO\juego2d\Assets\Codigos\obj\Debug\net7.0\Codigos.AssemblyInfo.cs
+E:\VIDEOJUEGOS\UNITY_NUEVO\juego2d\Assets\Codigos\obj\Debug\net7.0\Codigos.csproj.CoreCompileInputs.cache
