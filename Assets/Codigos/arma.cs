@@ -20,7 +20,7 @@ public class arma : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) ) {
+        if(Input.GetKeyDown(KeyCode.E) == true) {
             this.GetComponentInParent<AudioSource>().PlayOneShot(sonidoBola);
         Instantiate(bala, new Vector3(transform.position.x,transform.position.y,0), Quaternion.identity);
         }
