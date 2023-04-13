@@ -34,19 +34,19 @@ public class Movimiento : MonoBehaviour
     {
 
             //si no hay vidas no se ejecuta
-            if(principalScript.vidas <= 0){
+            if(principalScript.vidas > 0){
                 return;
 
 
 
-            }
+            
 
         //obtengo el valor de las teclas A-D (1-1)
 
         //GETAXIS
         float H = Input.GetAxis("Horizontal")*Speed;
         H *= Time.deltaTime; //convierto a metros por segundo
-        transform.Translate(H,0,0);
+        transform.Translate (H,0,0);
 
         //movTeclas = Time.deltaTime;
 
@@ -57,7 +57,7 @@ public class Movimiento : MonoBehaviour
         //INPUTS CONTROL NO PREDEFINIDOS
         if(
             Input.GetKey(KeyCode.Space) && ActivaSalto == true) {
-            GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,salto),ForceMode2D.Impulse); //Salto
+            GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,3f),ForceMode2D.Impulse); //Salto
             ActivaSalto = false;
         }
 
@@ -89,6 +89,10 @@ public class Movimiento : MonoBehaviour
             
             Parallax.direccionPersonaje = "parado";
         }
+        
+        }
+
+
 
     //FIN UPDATE
 
