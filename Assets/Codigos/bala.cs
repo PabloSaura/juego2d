@@ -11,10 +11,10 @@ public class bala : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(this.gameObject. 0.5f); //SI QUITO/COMENTO ESTO ME DA MENOS ERRORES
-
-    //derecha
-     if(Movimiento.direccionBala == false){
+        Destroy(this.gameObject, 0.5f); //SI QUITO/COMENTO ESTO ME DA MENOS ERRORES
+    
+        //derecha
+        if(Movimiento.direccionBala == false){
             velocidad = 6.0f;
         }else{
            velocidad = -6.0f;
@@ -44,7 +44,8 @@ public class bala : MonoBehaviour
             //Destroy(this.gameObject. 0.5f);  // Moisés lo pone arruba en el void start
         }
 
-
-
     }
+
+
+
 }

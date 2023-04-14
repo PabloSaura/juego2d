@@ -5,7 +5,7 @@ using UnityEngine;
 public class SeguirCamara : MonoBehaviour
 {
 
-    public transform Personaje;
+    public Transform Personaje;
     public float dondePersonajeX;
     public float dondePersonajeY;
 

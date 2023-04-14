@@ -8,6 +8,8 @@ public class arma : MonoBehaviour
     GameObject gestorSonido;
     public GameObject bala;
 
+    AudioClip sonidoBola;
+
     
 
     // Start is called before the first frame update

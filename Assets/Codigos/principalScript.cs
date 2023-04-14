@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class principalScript : MonoBehaviour
@@ -12,12 +13,9 @@ public class principalScript : MonoBehaviour
     GameObject player;
 
     void Awake(){
-        
-
+    
     }
 
-
-    }
     // Start is called before the first frame update
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
@@ -34,5 +32,7 @@ public class principalScript : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Escape)){
             SceneManager.LoadScene("Start");
+        }   
     }
+
 }

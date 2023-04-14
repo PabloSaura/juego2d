@@ -36,7 +36,6 @@ public class dead : MonoBehaviour
         personaje.transform.position = new Vector3(-1.3f,3.4f,0);
 
         personaje.GetComponent<AudioSource>().PlayOneShot(sonidoMuerte);
-        gestorSonido.
 
 
         //gestorSonido. 

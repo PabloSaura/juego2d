@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
 public class Enemigo : MonoBehaviour
@@ -9,12 +8,13 @@ public class Enemigo : MonoBehaviour
     //float SpeedEnemigo = 0.6f;//VIDEO MOISES 19
     GameObject player;
 
+
     Vector3 posicionOriginal;
 
     float distanciaAtaque = 5.0f;
     float velocidadAtaque = 0.6f; //LO HE AÑADIDO == VIDEO 19
     GameObject gestorSonido;
-    private object personaje;
+
 
 
     // Start is called before the first frame update
@@ -60,7 +60,7 @@ public class Enemigo : MonoBehaviour
             //Debug.Log("Has muerto!");
             principalScript.vidas -=1; //MOISÉS --;
             //principalScript.vidas--; //VIDEO 18 MOISÉS
-            personaje.transform.position = new Vector3(-1.3f,3.4f,0);
+            player.transform.position = new Vector3(-1.3f,3.4f,0);
         
             gestorSonido.GetComponent<audioManager>().sonidoDead();
         }

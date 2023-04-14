@@ -94,7 +94,7 @@ public class Movimiento : MonoBehaviour
             Parallax.direccionPersonaje = "parado";
         }
 
-        if(Input.GetKeyUp(KeyCode.D) || || Input.GetKeyUp(KeyCode.RightArrow)){
+        if(Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)){
             controlAnimacion.SetBool("activaCamina",false);
             ParardireccionBala = true;
             Parallax.direccionPersonaje = "parado";
