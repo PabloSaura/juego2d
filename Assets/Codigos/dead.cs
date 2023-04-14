@@ -32,7 +32,7 @@ public class dead : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D otro){
         Debug.Log("Has muerto!");
-        principalScript.vidas = -1;
+        principalScript.vidas = -1; // MOISÉS  --;
         personaje.transform.position = new Vector3(-1.3f,3.4f,0);
 
         personaje.GetComponent<AudioSource>().PlayOneShot(sonidoMuerte);

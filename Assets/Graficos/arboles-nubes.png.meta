@@ -7,7 +7,7 @@ TextureImporter:
     second: arboles-nubes_0
   - first:
       213: 5235637868945320034
-    second: nube
+    second: arboles-nubes_1
   - first:
       213: -852710476134836573
     second: arboles-nubes_2
@@ -266,12 +266,12 @@ TextureImporter:
       name: arboles-nubes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 495
-        width: 64
-        height: 64
+        x: 13
+        y: 436
+        width: 167
+        height: 118
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,15 +284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nube
+      name: arboles-nubes_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 495
-        width: 64
-        height: 64
+        x: 202
+        y: 395
+        width: 102
+        height: 159
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: arboles-nubes_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 495
-        width: 64
-        height: 64
+        x: 294
+        y: 486
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: arboles-nubes_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 495
-        width: 64
-        height: 64
+        x: 343
+        y: 434
+        width: 87
+        height: 114
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: arboles-nubes_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 495
-        width: 64
-        height: 64
+        x: 467
+        y: 439
+        width: 91
+        height: 106
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: arboles-nubes_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 495
-        width: 64
-        height: 64
+        x: 584
+        y: 437
+        width: 99
+        height: 115
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: arboles-nubes_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 495
-        width: 64
-        height: 64
+        x: 75
+        y: 313
+        width: 47
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: arboles-nubes_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 495
-        width: 64
-        height: 64
+        x: 136
+        y: 317
+        width: 32
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: arboles-nubes_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 495
-        width: 64
-        height: 64
+        x: 222
+        y: 262
+        width: 69
+        height: 104
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: arboles-nubes_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 495
-        width: 64
-        height: 64
+        x: 323
+        y: 253
+        width: 122
+        height: 154
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -476,12 +476,12 @@ TextureImporter:
       name: arboles-nubes_10
       rect:
         serializedVersion: 2
-        x: 640
-        y: 495
-        width: 64
-        height: 64
+        x: 448
+        y: 252
+        width: 125
+        height: 159
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: arboles-nubes_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 431
-        width: 64
-        height: 64
+        x: 580
+        y: 254
+        width: 119
+        height: 164
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: arboles-nubes_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 431
-        width: 64
-        height: 64
+        x: 79
+        y: 125
+        width: 159
+        height: 106
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: arboles-nubes_13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 431
-        width: 64
-        height: 64
+        x: 268
+        y: 131
+        width: 104
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -552,909 +552,6 @@ TextureImporter:
       bones: []
       spriteID: 0901b3e65e386f880800000000000000
       internalID: -8577523418860416880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af78f36bb0e2eda10800000000000000
-      internalID: 1936035517653026810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27cd70cb1949fc240800000000000000
-      internalID: 4814229880328150130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_16
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6345e859178ee4430800000000000000
-      internalID: 3769205512693765174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_17
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44e24c92d85e8a8c0800000000000000
-      internalID: -3987685075582702012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_18
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27c74afd687f5bde0800000000000000
-      internalID: -1317875157286224782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_19
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7685e5fb72d8a2f40800000000000000
-      internalID: 5704527079872026727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_20
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 431
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9b3e36bc462cbaa0800000000000000
-      internalID: -6143993680723297379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_21
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa04183ed0ba335e0800000000000000
-      internalID: -1931011739071987542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_22
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a725cce5e18ea9830800000000000000
-      internalID: 4078827629674517114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cb2a763ab6752900800000000000000
-      internalID: 659063462629616576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_24
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8feea0eea99a20d90800000000000000
-      internalID: -7132952376917692680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_25
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 350b004301c84f160800000000000000
-      internalID: 7058420517216235603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_26
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 262b3772bf7ac47f0800000000000000
-      internalID: -626941550970817950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_27
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df0f8e9e2bf18ed50800000000000000
-      internalID: 6766693293413167357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_28
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 367
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3abfce4e6731ab4b0800000000000000
-      internalID: -5424001399846536285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_29
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fff69c28d7becdfc0800000000000000
-      internalID: -3468638688684445697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_30
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9afad99c8cedab6c0800000000000000
-      internalID: -4126741154574258263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_31
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fbe6ece11c08c6c0800000000000000
-      internalID: -4123032187729155086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_32
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5dcb65cde239f6a0800000000000000
-      internalID: -6415040197411746470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_33
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00d91239ca7caeec0800000000000000
-      internalID: -3536795013329347328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_34
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c529167085859e20800000000000000
-      internalID: 3356735884058240454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_35
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92eb65e72f3c004b0800000000000000
-      internalID: -5476161700613407191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_36
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68c6659ea5cf9fd20800000000000000
-      internalID: 3312956468299721862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_37
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1919a501111fecf90800000000000000
-      internalID: -6931337720885505647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_38
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 303
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a91cc3c1e05d118a0800000000000000
-      internalID: -6336048944153575014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_39
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c024379fd110cf00800000000000000
-      internalID: 1134926758109520071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_40
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c168168fa1b5a0c40800000000000000
-      internalID: 5479292068044047900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_41
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 603226afce0bcee90800000000000000
-      internalID: -6995021589353716986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_42
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7a2f2b6f40707900800000000000000
-      internalID: 680167030135925371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_43
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c451fe9070be32fd0800000000000000
-      internalID: -2367790563602786996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_44
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d68d094d9cd4c7ee0800000000000000
-      internalID: -1262048266320553875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_45
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79059d3d636984610800000000000000
-      internalID: 1605698429384216727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_46
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 239
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a0e4e437cff80cf0800000000000000
-      internalID: -285697345287036767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_47
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 175
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: def6fe024049a00e0800000000000000
-      internalID: -2302865513993244691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_48
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 175
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3939b9d1ffc0ef970800000000000000
-      internalID: 8790477812526715795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_49
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 175
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2dfc84c41cf41f00800000000000000
-      internalID: 1086770576230251822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_50
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 175
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2c7ab3b0300d0460800000000000000
-      internalID: 7209418787663805485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_51
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 175
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 600f83bd337412ce0800000000000000
-      internalID: -1431784918480261114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_52
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 111
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a96b8e88ebbbda510800000000000000
-      internalID: 1562111072782562970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_53
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 111
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df7bd977971fd3d60800000000000000
-      internalID: 7871713227713656829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_54
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 111
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d66eec7b6368a680800000000000000
-      internalID: -8743629363231168808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_55
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 111
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2788b0edb1f21570800000000000000
-      internalID: 8436070849839662894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arboles-nubes_56
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 111
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bd08fa78b1f95c40800000000000000
-      internalID: 5501694194449124785
       vertices: []
       indices: 
       edges: []
