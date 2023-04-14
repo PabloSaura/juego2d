@@ -5,7 +5,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
 
-    public GameObject Personaje;
+    public  GameObject Personaje;
 
     public GameObject fondoNubes;
 
