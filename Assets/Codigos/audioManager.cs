@@ -37,6 +37,7 @@ public class audioManager : MonoBehaviour
         hiloMusical.clip = bandaSonora;
         hiloMusical.loop = true;
         hiloMusical.Play();
+        hiloMusical.volume = 0.1f;
     }
 //
     // Update is called once per frame

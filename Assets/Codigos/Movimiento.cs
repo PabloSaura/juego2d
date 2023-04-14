@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
 
-    public static float Speed =2f;
+    public float Speed = 2f;
 
     public bool ActivaSalto = true;
 
@@ -13,7 +13,7 @@ public class Movimiento : MonoBehaviour
 
     Rigidbody2D miCuerpoRigido;
 
-    public Animator controlAnimacion; 
+    Animator controlAnimacion; 
 
     public static bool direccionBala = false;
 
@@ -24,9 +24,7 @@ public class Movimiento : MonoBehaviour
     void Start(){
         miCuerpoRigido = GetComponent<Rigidbody2D>();
 
-
         controlAnimacion = GetComponent<Animator>();
-        controlAnimacion = GetComponent<Animator>(); 
 
 
     }
@@ -35,9 +33,9 @@ public class Movimiento : MonoBehaviour
     void Update()
     {
 
-            //si no hay vidas no se ejecuta
-            if(principalScript.vidas > 0){
-                return;
+        //si no hay vidas no se ejecuta
+        //if(principalScript.vidas > 0){
+        //    return;
 
 
 
@@ -57,8 +55,7 @@ public class Movimiento : MonoBehaviour
         //si,la tecla apretada es A, el personaje en su escala
 
         //INPUTS CONTROL NO PREDEFINIDOS
-        if(
-            Input.GetKey(KeyCode.Space) && ActivaSalto == true) {
+        if(Input.GetKey(KeyCode.Space) && ActivaSalto == true) {
             GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,3f),ForceMode2D.Impulse); //Salto
             ActivaSalto = false;
         }
@@ -99,20 +96,13 @@ public class Movimiento : MonoBehaviour
             ParardireccionBala = true;
             Parallax.direccionPersonaje = "parado";
         }
-
-
+    }
 
     //FIN UPDATE
-
-    void OncollisionEnter2D (){
+    void OnCollisionEnter2D (Collision2D otro){
         ActivaSalto = true;
-
     }
-                    
-        
 
 
-        
-    }
-}
+
 }

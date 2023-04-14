@@ -25,9 +25,9 @@ public class principalScript : MonoBehaviour
     void Update()
     {
         
-        Debug.Log("Vidas:" + vidas);
-        Debug.Log("Score:" + score);
-        Debug.Log("Score:" + enemigos + enemigos);
+        //Debug.Log("Vidas:" + vidas);
+        //Debug.Log("Score:" + score);
+        //Debug.Log("Score:" + enemigos + enemigos);
         
 
         if(Input.GetKeyDown(KeyCode.Escape)){

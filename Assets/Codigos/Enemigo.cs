@@ -38,33 +38,31 @@ public class Enemigo : MonoBehaviour
         if(distancia >= distanciaAtaque){
             transform.position = Vector3.MoveTowards(transform.position, posicionOriginal, velocidadEnemigo);
         
+        }else if(distancia <= distanciaAtaque){
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, velocidadEnemigo);
         }
-            else if(distancia <= distanciaAtaque){
-                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, velocidadEnemigo);
+       
+    }
+
+    void OnTriggerEnter2D(Collider2D otro){
+            //Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
+            //Debug.Log("otro");
+
+            //clonBala = otro.gameObject.name;
+
+            if(otro.gameObject.name == "bala(Clone)"){  //me destruye con la bala
+                principalScript.enemigos++;
+                Destroy(this.gameObject, 0.3f);
             }
 
-
-
-        void OnTriggerEnter2D(Collider2D otro){
-        //Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
-        //Debug.Log("otro");
-
-        //clonBala = otro.gameObject.name;
-
-        if(otro.gameObject.name == "bala(Clone)"){  //me destruye con la bala
-            principalScript.enemigos++;
-            Destroy(this.gameObject, 0.3f);
-        }
-
-        if(otro.gameObject.name == "Personaje)"){
-            //Debug.Log("Has muerto!");
-            principalScript.vidas -=1; //MOISÉS --;
-            //principalScript.vidas--; //VIDEO 18 MOISÉS
-            player.transform.position = new Vector3(-1.3f,3.4f,0);
-        
-            gestorSonido.GetComponent<audioManager>().sonidoDead();
-        }
-    }
+            if(otro.gameObject.name == "Personaje)"){
+                //Debug.Log("Has muerto!");
+                principalScript.vidas -=1; //MOISÉS --;
+                //principalScript.vidas--; //VIDEO 18 MOISÉS
+                player.transform.position = new Vector3(-1.3f,3.4f,0);
+            
+                gestorSonido.GetComponent<audioManager>().sonidoDead();
+            }
     }
 
     

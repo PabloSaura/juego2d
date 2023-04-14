@@ -30,7 +30,7 @@ public class Parallax : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(direccionPersonaje);
+        //Debug.Log(direccionPersonaje);
 
         if(direccionPersonaje == "derecha"){
         ///fondoNubes.transform.Translate(0.1f,0,0);

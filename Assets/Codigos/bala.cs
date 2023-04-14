@@ -11,13 +11,13 @@ public class bala : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(this.gameObject, 0.5f); //SI QUITO/COMENTO ESTO ME DA MENOS ERRORES
+        //Destroy(this.gameObject, 0.5f); //SI QUITO/COMENTO ESTO ME DA MENOS ERRORES
     
         //derecha
         if(Movimiento.direccionBala == false){
-            velocidad = 6.0f;
+            velocidad = velocidad*-1;
         }else{
-           velocidad = -6.0f;
+           velocidad = velocidad;
         }
     }
     
@@ -39,9 +39,8 @@ public class bala : MonoBehaviour
         transform.Translate(velocidad*Time.deltaTime,0,0);
         //transform.Translate(new Vector2(Time.deltaTime*7.0));  // En el video de Moisés aparece así
 
-        if(transform.position.x >= 100 || transform.position.x >= -100){
-
-            //Destroy(this.gameObject. 0.5f);  // Moisés lo pone arruba en el void start
+        if(transform.position.x >= 100 || transform.position.x <= -100){
+            Destroy(this.gameObject, 0.5f);  // Moisés lo pone arruba en el void start
         }
 
     }
