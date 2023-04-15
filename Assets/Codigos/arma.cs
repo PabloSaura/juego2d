@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class arma : MonoBehaviour
 {
 
@@ -24,12 +25,6 @@ public class arma : MonoBehaviour
             this.GetComponentInParent<AudioSource>().PlayOneShot(sonidoBola);
         Instantiate(bala, new Vector3(transform.position.x,transform.position.y,0), Quaternion.identity);
         }
-
-
-
-
-
-
 
     }
 }

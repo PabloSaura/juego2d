@@ -9,6 +9,7 @@ public class principalScript : MonoBehaviour
     public static int score = 0;
 
     public static int enemigos = 10;
+    /////public GUISkin miSkin;
 
     GameObject player;
 
@@ -34,5 +35,18 @@ public class principalScript : MonoBehaviour
             SceneManager.LoadScene("Start");
         }   
     }
-
 }
+///////MOISÉS GUI 21
+/*
+    void OnGUI(){
+        OnGUI.Label(new Rect(20,20,150,80),"Vida: "+vidas.ToString);
+        OnGUI.Label(new Rect(20,20,150,80),"Score: "+score.ToString);
+        OnGUI.Label(new Rect(20,20,150,80),"Enemigos: "+enemigos.ToString);
+
+
+    }
+*/
+
+
+
+
