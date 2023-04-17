@@ -8,9 +8,9 @@ public class principalScript : MonoBehaviour
     public static int vidas = 3;
     public static int score = 0;
     public static int enemigos = 0;
-    /////public GUISkin miSkin; /////public
-    /////public Texture2D logoJuego; /////public
-    /////int Anchopantalla; /////public
+    public GUISkin miSkin; /////public
+    public Texture2D logoJuego; /////public
+    int Anchopantalla; /////public
 
     GameObject player;
 
@@ -37,21 +37,23 @@ public class principalScript : MonoBehaviour
             SceneManager.LoadScene("Start");
         }   
     }
-}
-///////MOISÉS GUI 21
-/*
     void OnGUI(){
-        GUI.skin=miSkin;
+        GUI.skin = miSkin;
         GUI.Label(new Rect(20,20,150,80),"Vida: "+vidas.ToString(),"estiloScore");
-        GUI.Label(new Rect(20,20,150,80),"Score: "+score.ToString);
-        GUI.Label(new Rect(20,20,150,80),"Enemigos: "+enemigos.ToString);
-        GUI.Label(new Rect(Anchopantalla,-100,20,200,100),"Nombre Juego", "estiloTitulo");
+        GUI.Label(new Rect(20,20,150,80),"Score: "+score.ToString(),"estiloScore");
+        GUI.Label(new Rect(20,20,150,80),"Enemigos: "+enemigos.ToString(),"estiloScore");
+        //GUI.Label(new Rect(Anchopantalla,-100,20,200,100),"Nombre Juego", "estiloTitulo");
         ///imagen
-        GUI.DrawTexture(new Rect(Screen.width-80,20,80),logoJuego);
+        //GUI.DrawTexture(new Rect(Screen.width-80,20,80),logoJuego);
 
 
     }
+    ///////MOISÉS GUI 21
+/*
+    
 */
+}
+
 
 
 
