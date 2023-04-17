@@ -6,7 +6,7 @@ public class Enemigo : MonoBehaviour
 {
     //public string clonBala; //VIDEO MOISES 18
     //float SpeedEnemigo = 0.6f;//VIDEO MOISES 19
-    GameObject player;
+    public GameObject player; /// "public" se lo ha añadido MOISES
 
 
     Vector3 posicionOriginal;
@@ -28,10 +28,10 @@ public class Enemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 Objetivo = posicionOriginal;//MOISES 19
+        Vector3 Objetivo = posicionOriginal;//MOISES 19  Ia
         
         float distancia = Vector3.Distance(player.transform.position, transform.position); //distancia = fantasma .x - personaje .x
-        Debug.Log(distancia); //calcular/comprobar la distancia
+        //Debug.Log(distancia); //calcular/comprobar la distancia
 
         float velocidadEnemigo = velocidadAtaque * Time.deltaTime;
 
@@ -48,16 +48,16 @@ public class Enemigo : MonoBehaviour
             //Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
             //Debug.Log("otro");
 
-            //clonBala = otro.gameObject.name;
+            //clonBala = otro.gameObject.name; ////MOISES COMENTAR
 
-            if(otro.gameObject.name == "bala(Clone)"){  //me destruye con la bala
+            if(otro.gameObject.name == "bala(Clone)"){  //enemigo se destruye con la bala
                 principalScript.enemigos++;
                 Destroy(this.gameObject, 0.3f);
             }
 
             if(otro.gameObject.name == "Personaje)"){
                 //Debug.Log("Has muerto!");
-                principalScript.vidas -=1; //MOISÉS --;
+                principalScript.vidas--; //MOISÉS -=1;
                 //principalScript.vidas--; //VIDEO 18 MOISÉS
                 player.transform.position = new Vector3(-1.3f,3.4f,0);
             
