@@ -7,11 +7,10 @@ public class principalScript : MonoBehaviour
 {
     public static int vidas = 3;
     public static int score = 0;
-
-    public static int enemigos = 10;
-    /////public GUISkin miSkin;
-    /////public Texture2D logoJuego; 
-    /////int Anchopantalla;
+    public static int enemigos = 0;
+    /////public GUISkin miSkin; /////public
+    /////public Texture2D logoJuego; /////public
+    /////int Anchopantalla; /////public
 
     GameObject player;
 

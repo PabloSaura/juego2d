@@ -5,11 +5,11 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
 
-    public float Speed = 2f;
+    public float Speed = 3.5f;
 
     public bool ActivaSalto = true;
 
-    public float salto = 3.5f;
+    public float salto = 5f;
 
     Rigidbody2D miCuerpoRigido;
 
@@ -34,12 +34,10 @@ public class Movimiento : MonoBehaviour
     {
 
         //si no hay vidas no se ejecuta
-        //if(principalScript.vidas > 0){
         //    return;
+    if(principalScript.vidas > 0){
+        
 
-
-
-            
 
         //obtengo el valor de las teclas A-D (1-1)
 
@@ -96,6 +94,7 @@ public class Movimiento : MonoBehaviour
             ParardireccionBala = true;
             Parallax.direccionPersonaje = "parado";
         }
+    }
     }
 
     //FIN UPDATE
