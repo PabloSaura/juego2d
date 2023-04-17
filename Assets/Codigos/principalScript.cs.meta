@@ -3,7 +3,9 @@ guid: 51758976531495447b2925a3a01b5bed
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - miSkin: {fileID: 11400000, guid: 05f6af4ad2db5aa4e9c89e40f80846b2, type: 2}
+  - logoJuego: {fileID: 2800000, guid: 3182bc8f6dc507e42a402c9e90a4dc66, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
