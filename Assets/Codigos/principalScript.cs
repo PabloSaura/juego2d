@@ -10,6 +10,8 @@ public class principalScript : MonoBehaviour
 
     public static int enemigos = 10;
     /////public GUISkin miSkin;
+    /////public Texture2D logoJuego; 
+    /////int Anchopantalla;
 
     GameObject player;
 
@@ -25,7 +27,8 @@ public class principalScript : MonoBehaviour
     ///Update is called once per frame
     void Update()
     {
-        
+        ///Anchopantalla = Screen.width/2;//////MOISES COMENTARLO
+
         //Debug.Log("Vidas:" + vidas);
         //Debug.Log("Score:" + score);
         //Debug.Log("Score:" + enemigos + enemigos);
@@ -39,9 +42,13 @@ public class principalScript : MonoBehaviour
 ///////MOISÉS GUI 21
 /*
     void OnGUI(){
-        OnGUI.Label(new Rect(20,20,150,80),"Vida: "+vidas.ToString);
-        OnGUI.Label(new Rect(20,20,150,80),"Score: "+score.ToString);
-        OnGUI.Label(new Rect(20,20,150,80),"Enemigos: "+enemigos.ToString);
+        GUI.skin=miSkin;
+        GUI.Label(new Rect(20,20,150,80),"Vida: "+vidas.ToString(),"estiloScore");
+        GUI.Label(new Rect(20,20,150,80),"Score: "+score.ToString);
+        GUI.Label(new Rect(20,20,150,80),"Enemigos: "+enemigos.ToString);
+        GUI.Label(new Rect(Anchopantalla,-100,20,200,100),"Nombre Juego", "estiloTitulo");
+        ///imagen
+        GUI.DrawTexture(new Rect(Screen.width-80,20,80),logoJuego);
 
 
     }
