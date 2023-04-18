@@ -6,7 +6,7 @@ public class goals : MonoBehaviour
 {
 
     GameObject personaje;
-    GameObject gestorSonido;
+    public GameObject gestorSonido;
 
 
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class goals : MonoBehaviour
     void OnTriggerEnter2D(){  /// DENTRO DEL PARÉNTESIS ESTABA:   (Collider2D otro)
         principalScript.score += 10;
         Destroy(this.gameObject, 0.5f); ///MOISÉS 14 COMENTARLO
+        gestorSonido.GetComponent<audioManager>().sonidoPuntos(); /// 35
        // gestorSonido.GetComponent<sonidoGoals>()
      }
 

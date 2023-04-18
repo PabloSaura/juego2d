@@ -13,6 +13,7 @@ public class audioManager : MonoBehaviour
     public AudioClip lanzaBola;
     public AudioClip sonidoMuerte;
     public AudioClip sonidoGoal;
+    public AudioClip sonidoBola; ////35
 
 
     AudioSource hiloMusical;
@@ -67,11 +68,11 @@ public class audioManager : MonoBehaviour
     }
 
     public void sonidoDead(){
-        hiloMusical.PlayOneShot(sonidoMuerte);
+        hiloMusical.PlayOneShot(sonidoMuerte, 1f);
     }
-    public void sonidoGoals(){
-        hiloMusical.PlayOneShot(sonidoGoal);
+    public void sonidoPuntos(){ ///sonidoGoals
+        hiloMusical.PlayOneShot(sonidoGoal, 1f);
     }
-
+    
 
 }
