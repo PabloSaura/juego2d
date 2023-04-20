@@ -6,13 +6,13 @@ public class goals : MonoBehaviour
 {
 
     GameObject personaje;
-    public GameObject gestorSonido;
+    GameObject gestorSonido;
 
 
     // Start is called before the first frame update
     void Start()
     {
-       
+       gestorSonido = GameObject.Find("AudioManager");
     }
 
     // Update is called once per frame

@@ -6,17 +6,17 @@ using UnityEngine.SceneManagement;
 public class scriptStart : MonoBehaviour
 {
 
-    public GameObject canvasStart;
+    public GameObject canvasStart;  /// QUITAR EL COMENTADO !!!
 
-    public GameObject canvasControles;
+    public GameObject canvasControles;  /// QUITAR EL COMENTADO !!!
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        canvasStart.SetActive(false);
-        canvasControles.SetActive(true);
+        //canvasStart.SetActive(false);   /// QUITAR EL COMENTADO !!!
+        //canvasControles.SetActive(true); /// QUITAR EL COMENTADO !!!
     }
 
     // Update is called once per frame

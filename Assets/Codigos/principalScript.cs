@@ -15,7 +15,7 @@ public class principalScript : MonoBehaviour
     GameObject player;
 
     void Awake(){
-    
+        DontDestroyOnLoad(gameObject); /// 23
     }
 
     // Start is called before the first frame update

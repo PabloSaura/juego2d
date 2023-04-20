@@ -26,7 +26,7 @@ public class audioManager : MonoBehaviour
         if(scriptDuplicado == null){
             scriptDuplicado = this.gameObject;
         }
-        else{
+        else if(scriptDuplicado != null){   /// 36 SOBRA (IF(SCRIPTDUPLICADO != NULL))
             Destroy(this.gameObject);
         }
     }
@@ -64,7 +64,7 @@ public class audioManager : MonoBehaviour
 
     public void clicBoton(){
         //que suene el sonido del boton
-        hiloMusical.PlayOneShot(clickMenu);
+        hiloMusical.PlayOneShot(clickMenu, 1f);
     }
 
     public void sonidoDead(){

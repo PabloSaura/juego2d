@@ -20,13 +20,15 @@ public class Movimiento : MonoBehaviour
     public static bool ParardireccionBala = false;  //VIDEO 17 DE MOISES
 
 
+void Awake(){
+        DontDestroyOnLoad(gameObject); /// 23
+    }
+
     // Start is called before the first frame update
     void Start(){
         miCuerpoRigido = GetComponent<Rigidbody2D>();
 
         controlAnimacion = GetComponent<Animator>();
-
-
     }
 
     // Update is called once per frame

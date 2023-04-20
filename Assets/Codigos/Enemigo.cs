@@ -14,7 +14,7 @@ public class Enemigo : MonoBehaviour
     float distanciaAtaque = 5.0f;
     float velocidadAtaque = 0.6f; //LO HE AÑADIDO == VIDEO 19
     GameObject gestorSonido;
-
+    private AudioSource emisorEnemigo; /// 36
 
 
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class Enemigo : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
         posicionOriginal = transform.position; //
+        emisorEnemigo = GetComponent<AudioSource>();
 
     }
 
@@ -47,18 +48,18 @@ public class Enemigo : MonoBehaviour
     void OnTriggerEnter2D(Collider2D otro){
             //Debug.Log(Collider2D.gameObject.name); //que la bala colisione con el Enemigo
             //Debug.Log("otro");
-
-            //clonBala = otro.gameObject.name; ////MOISES COMENTAR
+            //clonBala = otro.gameObject.name; //// 18 MOISES COMENTAR
 
             if(otro.gameObject.name == "bala(Clone)"){  //enemigo se destruye con la bala
                 principalScript.enemigos++;
+                emisorEnemigo.PlayOneShot(gestorSonido.GetComponent<audioManager>().sonidoBola,1f);
                 Destroy(this.gameObject, 0.3f);
             }
 
             if(otro.gameObject.name == "Personaje)"){
                 //Debug.Log("Has muerto!");
-                principalScript.vidas--; //MOISÉS -=1;
-                //principalScript.vidas--; //VIDEO 18 MOISÉS
+                principalScript.vidas--; //MOISÉS -=1; VIDEO 18 
+               
                 player.transform.position = new Vector3(-1.3f,3.4f,0);
             
                 gestorSonido.GetComponent<audioManager>().sonidoDead();
