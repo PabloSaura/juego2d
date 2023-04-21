@@ -16,8 +16,7 @@ public class goals : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-{
+    void Update(){
 }
     void OnTriggerEnter2D(){  /// DENTRO DEL PARÉNTESIS ESTABA:   (Collider2D otro)
         principalScript.score += 10;

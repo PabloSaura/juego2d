@@ -17,7 +17,7 @@ public class bala : MonoBehaviour
         if(Movimiento.direccionBala == false){
             velocidad = velocidad*-1;
         }else{
-           velocidad = velocidad;
+           velocidad = velocidad; /// PROBLEMA!!!
         }
     }
     

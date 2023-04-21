@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goal
       objectReference: {fileID: 0}
+    - target: {fileID: 7060929732554542416, guid: 19310cacb665e7a01b4ebac90bd81d06, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19310cacb665e7a01b4ebac90bd81d06, type: 3}
 --- !u!1 &227453038 stripped
@@ -357,7 +361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d05772d7b24844893941903c20d84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gestorSonido: {fileID: 0}
 --- !u!1 &390286465
 GameObject:
   m_ObjectHideFlags: 0

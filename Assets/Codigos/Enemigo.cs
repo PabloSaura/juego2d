@@ -23,6 +23,7 @@ public class Enemigo : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player"); //encuentra el personaje con el TAG PLAYER
         posicionOriginal = transform.position; //
         emisorEnemigo = GetComponent<AudioSource>();
+        gestorSonido = GameObject.Find("AudioManager");
 
     }
 
